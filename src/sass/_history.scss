@@ -1,0 +1,14 @@
+.listHistoryWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  list-style-type: none;
+
+  .historyElement {
+    margin: 5px 5px;
+
+    &--removed {
+      color: red;
+    }
+  }
+}
